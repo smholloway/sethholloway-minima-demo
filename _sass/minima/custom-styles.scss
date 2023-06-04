@@ -6,3 +6,18 @@
     background: #fff;
     font: 18px/1.831 "Open Sans", sans-serif;
 }
+
+a, a:visited {
+    color: #4587de;
+    text-decoration: none;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+    -webkit-backface-visibility: hidden;
+}
+
+a:hover {
+    color: #ed7854;
+    text-decoration: none;
+}
