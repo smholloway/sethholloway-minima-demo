@@ -17,7 +17,7 @@ minima:
     - { platform: twitter,        user_url: "https://twitter.com/sethholloway" }
     - { platform: rss,            user_url: "https://sethholloway.com/feed.xml" }
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 permalink: :title/
 
@@ -28,3 +28,5 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-seo-tag
+
+google_analytics_tracking_id: UA-7555904-1
